@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  /* Base Body Styling */
+  body {
+    @apply text-white font-sans overflow-hidden select-none antialiased;
+    background-color: #030611;
+  }
+}
+
+/* Hyper Cyber Glass Cards (AAA Game UI / Cyberpunk Aesthetic) */
+.super-card {
+  background: rgba(8, 14, 30, 0.65);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 40px;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.85), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  transform-style: preserve-3d;
+}
+
+/* RGB Animated Neon Glow Border */
+.super-card-glow {
+  position: relative;
+}
+
+.super-card-glow::before {
+  content: '';
+  position: absolute;
+  inset: -1.5px;
+  border-radius: 41px;
+  padding: 1.5px;
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.7), rgba(37, 99, 235, 0.7), rgba(139, 92, 246, 0.7));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0.75;
+  transition: opacity 0.4s ease;
+}
+
+.super-card-glow:hover::before {
+  opacity: 1;
+}
+
+/* Cyber Button & Controls */
+.glass-button-super {
+  background: rgba(56, 189, 248, 0.15);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-button-super:hover {
+  background: rgba(56, 189, 248, 0.35);
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 50px rgba(56, 189, 248, 0.65);
+  transform: translateY(-2px) scale(1.02);
+}
+
+/* Gradients & Glows */
+.bg-aurora-mesh {
+  background: radial-gradient(circle at 15% 20%, rgba(56, 189, 248, 0.22), transparent 50%),
+              radial-gradient(circle at 85% 80%, rgba(139, 92, 246, 0.22), transparent 50%),
+              radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.15), transparent 60%);
+}
+
+.text-gradient-super {
+  background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 30%, #38bdf8 70%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-stroke-transparent {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.25);
+  color: transparent;
+  transition: all 0.7s ease;
+}
+
+.text-stroke-transparent:hover {
+  -webkit-text-stroke: 1.5px #38bdf8;
+  color: rgba(56, 189, 248, 0.12);
+}
+
+/* Ken Burns Effect */
+@keyframes kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.1) translate(-1.5%, -1.5%);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+.animate-kenburns {
+  animation: kenburns 15s ease-in-out infinite alternate;
+}
+
+/* Levitation float animation */
+@keyframes floatLevitate {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float-levitate {
+  animation: floatLevitate 6s ease-in-out infinite;
+}
+
+/* Hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
