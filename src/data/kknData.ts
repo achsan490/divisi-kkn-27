@@ -45,7 +45,8 @@ export const KKN_INFO = {
   period: "Angkatan 2026 • Published 30 Juni 2026",
   totalMembers: "21 Mahasiswa",
   heroVideoBg: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1920&auto=format&fit=crop",
-  closingBg: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?q=80&w=1920&auto=format&fit=crop",
+  groupPhoto: "/images/ketua.jpeg",
+  closingBg: "/images/ketua.jpeg",
 };
 
 export const DPL_DATA = {
