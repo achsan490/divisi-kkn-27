@@ -111,9 +111,9 @@ export const SlideDivisi: React.FC<SlideDivisiProps> = ({ isActive, data }) => {
                     delay: 0.05 + index * 0.04,
                     ease: "easeOut",
                   }}
-                  className="group flex items-center justify-between p-2.5 sm:p-3 rounded-xl sm:rounded-2xl glass-panel-dark border border-white/10 hover:border-cyan-400/50 transition-all duration-300"
+                  className="group flex items-center justify-between p-2.5 sm:p-3 rounded-xl sm:rounded-2xl glass-panel-dark border border-white/10 hover:border-cyan-400/50 transition-all duration-300 gap-3"
                 >
-                  <div className="flex items-center gap-2.5 sm:gap-3">
+                  <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 flex-1">
                     {/* Avatar Circle */}
                     <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden border border-cyan-400/50 bg-[#030611] shrink-0">
                       {member.avatar ? (
@@ -129,18 +129,18 @@ export const SlideDivisi: React.FC<SlideDivisiProps> = ({ isActive, data }) => {
                       )}
                     </div>
 
-                    <div>
-                      <h4 className="text-xs sm:text-sm font-bold text-white group-hover:text-cyan-300 transition-colors">
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-xs sm:text-sm font-bold text-white group-hover:text-cyan-300 transition-colors truncate">
                         {member.name}
                       </h4>
-                      <p className="text-[10px] sm:text-[11px] text-slate-400 font-mono">
+                      <p className="text-[10px] sm:text-[11px] text-slate-400 font-mono truncate">
                         {member.prodi}
                       </p>
                     </div>
                   </div>
 
-                  <div className="text-right">
-                    <span className="text-[9px] sm:text-[10px] font-mono text-cyan-300 px-2 py-0.5 rounded-full bg-cyan-500/15 border border-cyan-400/30">
+                  <div className="text-right shrink-0">
+                    <span className="text-[9px] sm:text-[10px] font-mono text-cyan-300 px-2 py-0.5 rounded-full bg-cyan-500/15 border border-cyan-400/30 whitespace-nowrap inline-block">
                       NIM: {member.nim}
                     </span>
                   </div>

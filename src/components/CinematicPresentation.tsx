@@ -26,12 +26,12 @@ import { SlideGaleri } from "./slides/SlideGaleri";
 import { SlideClosing } from "./slides/SlideClosing";
 
 // Dynamic slide duration calculation to guarantee 100% completion of every section:
-// Slide 11 (Galeri, index 10): 24.5s to show ALL 7 activity photos cleanly (3.5s per photo)
+// Slide 11 (Galeri Anggota, index 10): 30s to showcase member photo cards cleanly
 // Slide 12 (Closing, index 11): 10s for complete "Terima Kasih" & Logo reveal
 // Regular division cards: 6.5s per slide
 const getSlideDurationMs = (index: number) => {
-  if (index === 10) return 24500; // Slide 11 Galeri: 24.5 seconds for all 7 photos!
-  if (index === 11) return 10000; // Slide 12 Closing: 10 seconds!
+  if (index === 10) return 40000; // Slide 11 Galeri Anggota: 40 seconds to complete all 22 member cards (1.8s per card)
+  if (index === 11) return 10000; // Slide 12 Closing: 10 seconds
   return 6500; // Regular division cards: 6.5 seconds
 };
 

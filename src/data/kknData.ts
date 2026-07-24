@@ -181,7 +181,7 @@ export const DIVISIONS_DATA: DivisionData[] = [
       "Koordinasi Kemitraan & Community Relations"
     ],
     members: [
-      { name: "DIMAS EKA PRASETYO", role: "Divisi Humas", nim: "2301013108", prodi: "Pendidikan Agama Islam", avatar: "/images/dimas eka.jpg" },
+      { name: "DIMAS EKA PRASETYO", role: "Divisi Humas", nim: "2301013108", prodi: "Pendidikan Agama Islam", avatar: "/images/dimas_eka.jpg" },
       { name: "A'A KAFABIHI DZULQORNAIN", role: "Divisi Humas", nim: "2301013076", prodi: "Pendidikan Agama Islam", avatar: "/images/kafa.jpg" },
       { name: "TYAS ARTIKA ANGGRAINI", role: "Divisi Humas", nim: "2301290363", prodi: "Ekonomi Syariah", avatar: "/images/tyas.jpg" },
     ]
@@ -211,67 +211,179 @@ export const DIVISIONS_DATA: DivisionData[] = [
 
 export const GALLERY_DATA: GalleryItem[] = [
   {
-    id: "gal-1",
-    title: "OFFICIAL LAUNCHING KKN KELOMPOK 27",
-    category: "SEREMONIAL",
-    date: "30 JUNI 2026",
-    image: "/images/ketua.jpeg",
-    description: "Penerimaan resmi DPL Fitri Umardiyah, M. Pd. & Kelompok 27 oleh Perangkat Desa Klitih."
+    id: "gal-baihaqi",
+    title: "MOHAMAD YUSRIL BAIHAQI",
+    category: "KETUA KELOMPOK",
+    date: "NIM: 2301290376",
+    image: "/images/baihaqi.jpg",
+    description: "Ketua KKN Kelompok 27 • Ekonomi Syariah UNWAHA Jombang"
   },
   {
-    id: "gal-2",
-    title: "KEYNOTE & PROGRAMMING STRATEGY",
-    category: "ACARA",
-    date: "02 JULI 2026",
-    image: "/images/acara.jpeg",
-    description: "Perencanaan rundown dan eksekusi program kerja edukatif anak-anak Desa Klitih."
+    id: "gal-salman",
+    title: "SALMAN ALFARIDHO FARDIANSYAH",
+    category: "DIVISI ACARA",
+    date: "NIM: 2302041163",
+    image: "/images/salman.jpg",
+    description: "Divisi Acara • Informatika UNWAHA Jombang"
   },
   {
-    id: "gal-3",
-    title: "DOCUMENT CONTROL & ADMINISTRATION",
-    category: "SEKRETARIS",
-    date: "04 JULI 2026",
-    image: "/images/sekertaris.jpeg",
-    description: "Tata kelola persuratan resmi dan pengarsipan administrasi program kerja."
+    id: "gal-nadya",
+    title: "NADYA HUSNUL KHOTIMAH",
+    category: "DIVISI ACARA",
+    date: "NIM: 2305140682",
+    image: "/images/nadya.jpg",
+    description: "Divisi Acara • Manajemen UNWAHA Jombang"
   },
   {
-    id: "gal-4",
-    title: "TREASURY & FINANCIAL AUDIT",
-    category: "BENDAHARA",
-    date: "06 JULI 2026",
-    image: "/images/bendahara.jpeg",
-    description: "Transparansi arus kas dan pengalokasian anggaran operasional kelompok."
+    id: "gal-sita",
+    title: "ARIEJ MASHITOH AL BANY",
+    category: "DIVISI ACARA",
+    date: "NIM: 2301012981",
+    image: "/images/sita.jpg",
+    description: "Divisi Acara • Pendidikan Agama Islam UNWAHA Jombang"
   },
   {
-    id: "gal-5",
-    title: "CREATIVE MEDIA & VISUAL PRODUCTION",
-    category: "PDD",
-    date: "08 JULI 2026",
-    image: "/images/pdd.jpeg",
-    description: "Liputan sinematik dan produksi media visual oleh tim PDD Informatika & SI UNWAHA."
+    id: "gal-aklis",
+    title: "AKHLIS BUDIANTO",
+    category: "DIVISI ACARA",
+    date: "NIM: 2305140670",
+    image: "/images/aklis.jpg",
+    description: "Divisi Acara • Manajemen UNWAHA Jombang"
   },
   {
-    id: "gal-6",
-    title: "COMMUNITY OUTREACH & RELATIONS",
-    category: "HUMAS",
-    date: "12 JULI 2026",
-    image: "/images/humas.jpeg",
-    description: "Kunjungan silaturahmi dan sosialisasi program kerja kepada tokoh & warga Desa Klitih."
+    id: "gal-laila",
+    title: "LAILATUL MUFIDAH",
+    category: "DIVISI ACARA",
+    date: "NIM: 2304100179",
+    image: "/images/laila.jpg",
+    description: "Divisi Acara • Pendidikan Biologi UNWAHA Jombang"
   },
   {
-    id: "gal-7",
-    title: "EQUIPMENT LOGISTICS & INFRASTRUCTURE",
-    category: "PERLENGKAPAN",
-    date: "15 JULI 2026",
-    image: "/images/perlengkapan.jpeg",
-    description: "Mobilisasi sarana prasarana dan kesiapan teknis venue kegiatan."
+    id: "gal-arinda",
+    title: "ARINDA ISLAMIYAH",
+    category: "DIVISI SEKRETARIS",
+    date: "NIM: 2305140736",
+    image: "/images/arinda.jpg",
+    description: "Sekretaris Kelompok • Manajemen UNWAHA Jombang"
   },
   {
-    id: "gal-8",
-    title: "HOSPITALITY & TEAM WELFARE",
-    category: "KONSUMSI",
-    date: "18 JULI 2026",
-    image: "/images/konsumsi.jpeg",
-    description: "Manajemen konsumsi harian posko dan penyediaan jamuan ramah tamah warga."
+    id: "gal-murni",
+    title: "MURNI",
+    category: "DIVISI SEKRETARIS",
+    date: "NIM: 2301021002",
+    image: "/images/murni.jpg",
+    description: "Sekretaris Kelompok • Pendidikan Bahasa Arab UNWAHA Jombang"
+  },
+  {
+    id: "gal-diva",
+    title: "DIVA NUGRAHANI",
+    category: "DIVISI BENDAHARA",
+    date: "NIM: 2305140704",
+    image: "/images/diva.jpg",
+    description: "Bendahara Kelompok • Manajemen UNWAHA Jombang"
+  },
+  {
+    id: "gal-kisa",
+    title: "KIA SALUNG SHAFA",
+    category: "DIVISI PDD",
+    date: "NIM: 2304130230",
+    image: "/images/kisa.jpg",
+    description: "Divisi PDD • Pendidikan Bahasa Inggris UNWAHA Jombang"
+  },
+  {
+    id: "gal-thoil",
+    title: "MOH. THOILUN NI'AM",
+    category: "DIVISI PDD",
+    date: "NIM: 2301013182",
+    image: "/images/thoil.jpg",
+    description: "Divisi PDD • Pendidikan Agama Islam UNWAHA Jombang"
+  },
+  {
+    id: "gal-yogi",
+    title: "YOGI BACHTIAR",
+    category: "DIVISI PDD",
+    date: "NIM: 2302050817",
+    image: "/images/yogi.jpg",
+    description: "Divisi PDD • Sistem Informasi UNWAHA Jombang"
+  },
+  {
+    id: "gal-alma",
+    title: "ALMA NUR KURNIAWAN",
+    category: "DIVISI PERLENGKAPAN",
+    date: "NIM: 2302050834",
+    image: "/images/alma.jpg",
+    description: "Divisi Perlengkapan • Sistem Informasi UNWAHA Jombang"
+  },
+  {
+    id: "gal-danu",
+    title: "MUKHAMMAD DANU ARTA",
+    category: "DIVISI PERLENGKAPAN",
+    date: "NIM: 2305140737",
+    image: "/images/danu.jpg",
+    description: "Divisi Perlengkapan • Manajemen UNWAHA Jombang"
+  },
+  {
+    id: "gal-dimas",
+    title: "DIMAS EKA PRASETYO",
+    category: "DIVISI HUMAS",
+    date: "NIM: 2301013108",
+    image: "/images/dimas_eka.jpg",
+    description: "Divisi Humas • Pendidikan Agama Islam UNWAHA Jombang"
+  },
+  {
+    id: "gal-kafa",
+    title: "A'A KAFABIHI DZULQORNAIN",
+    category: "DIVISI HUMAS",
+    date: "NIM: 2301013076",
+    image: "/images/kafa.jpg",
+    description: "Divisi Humas • Pendidikan Agama Islam UNWAHA Jombang"
+  },
+  {
+    id: "gal-tyas",
+    title: "TYAS ARTIKA ANGGRAINI",
+    category: "DIVISI HUMAS",
+    date: "NIM: 2301290363",
+    image: "/images/tyas.jpg",
+    description: "Divisi Humas • Ekonomi Syariah UNWAHA Jombang"
+  },
+  {
+    id: "gal-lina",
+    title: "SERLINA MAGFIROH",
+    category: "DIVISI KONSUMSI",
+    date: "NIM: 2301013028",
+    image: "/images/lina.jpg",
+    description: "Divisi Konsumsi • Pendidikan Agama Islam UNWAHA Jombang"
+  },
+  {
+    id: "gal-hakiki",
+    title: "HAKIKI RAMADHAN",
+    category: "DIVISI KONSUMSI",
+    date: "NIM: 2303070212",
+    image: "/images/hakiki.jpg",
+    description: "Divisi Konsumsi • Agroekoteknologi UNWAHA Jombang"
+  },
+  {
+    id: "gal-nadia",
+    title: "NADIA RAMA DIWANTI",
+    category: "DIVISI KONSUMSI",
+    date: "NIM: 2301013118",
+    image: "/images/nadia.jpg",
+    description: "Divisi Konsumsi • Pendidikan Agama Islam UNWAHA Jombang"
+  },
+  {
+    id: "gal-nuria",
+    title: "ANANDA NURIA HALIZA PUTRI",
+    category: "DIVISI KONSUMSI",
+    date: "NIM: 2301012961",
+    image: "/images/nuria.jpg",
+    description: "Divisi Konsumsi • Pendidikan Agama Islam UNWAHA Jombang"
+  },
+  {
+    id: "gal-achsan",
+    title: "SAN PROJECT",
+    category: "ANGGOTA KELOMPOK",
+    date: "UNWAHA JOMBANG",
+    image: "/images/san_project.png",
+    description: "Mahasiswa KKN Kelompok 27 • UNWAHA Jombang"
   }
 ];

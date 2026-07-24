@@ -115,7 +115,7 @@ export const SlideHero: React.FC<SlideProps> = ({ isActive }) => {
           transition={{ duration: 1, delay: 1 }}
           className="mt-12 flex items-center gap-2 text-slate-400 text-xs font-medium tracking-widest uppercase animate-bounce"
         >
-          <span>Gunakan Tombol Panah atau Geser Layar Untuk Slide Selanjutnya</span>
+          <span>selamat menonton</span>
         </motion.div>
       </div>
     </div>
