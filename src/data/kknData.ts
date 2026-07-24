@@ -45,8 +45,8 @@ export const KKN_INFO = {
   period: "Angkatan 2026 • Published 30 Juni 2026",
   totalMembers: "21 Mahasiswa",
   heroVideoBg: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1920&auto=format&fit=crop",
-  groupPhoto: "/images/ketua.jpeg",
-  closingBg: "/images/ketua.jpeg",
+  groupPhoto: "/images/kelompok.jpg",
+  closingBg: "/images/kelompok.jpg",
 };
 
 export const DPL_DATA = {
@@ -386,5 +386,13 @@ export const GALLERY_DATA: GalleryItem[] = [
     date: "UNWAHA JOMBANG",
     image: "/images/san_project.png",
     description: "Mahasiswa KKN Kelompok 27 • UNWAHA Jombang"
+  },
+  {
+    id: "gal-kelompok",
+    title: "KKN KELOMPOK 27",
+    category: "FOTO BERSAMA",
+    date: "DESA KLITIH 2026",
+    image: "/images/kelompok.jpg",
+    description: "Kafilah Pengabdian KKN Kelompok 27 • UNWAHA Jombang"
   }
 ];

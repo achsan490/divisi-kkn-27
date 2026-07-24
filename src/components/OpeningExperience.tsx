@@ -35,6 +35,7 @@ const MARVEL_PHOTOS = [
   "/images/thoil.jpg",
   "/images/ketua.jpeg",
   "/images/dpl.jpeg",
+  "/images/kelompok.jpg",
 ];
 
 export const OpeningExperience: React.FC<OpeningProps> = ({ onOpeningComplete }) => {
